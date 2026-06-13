@@ -1,0 +1,16 @@
+## Interface: 120000
+## Title: |cff44b544Enhanced|r|cffe0B84fProbe|r
+## Notes: Machine-diffable captures of the client API surface - global census, documentation dump, secret-probe matrix, and frame introspection.
+## Author: Vhye76
+## Version: 1.0.0
+## SavedVariables: EnhancedProbeDB
+
+# Core
+EnhancedProbe.lua
+
+# Modules
+modules\EnhancedCensus.lua
+modules\EnhancedDocs.lua
+modules\EnhancedDump.lua
+modules\EnhancedFrames.lua
+modules\EnhancedSecrets.lua
