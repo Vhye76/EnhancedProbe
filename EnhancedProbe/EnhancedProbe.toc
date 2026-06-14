@@ -9,6 +9,7 @@
 EnhancedProbe.lua
 
 # Modules
+modules\EnhancedCDMFields.lua
 modules\EnhancedCensus.lua
 modules\EnhancedDocs.lua
 modules\EnhancedDump.lua
