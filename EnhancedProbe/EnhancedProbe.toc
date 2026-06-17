@@ -14,4 +14,5 @@ modules\EnhancedCensus.lua
 modules\EnhancedDocs.lua
 modules\EnhancedDump.lua
 modules\EnhancedFrames.lua
+modules\EnhancedGCD.lua
 modules\EnhancedSecrets.lua
