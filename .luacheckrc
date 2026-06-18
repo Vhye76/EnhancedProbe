@@ -15,9 +15,10 @@ ignore = { "211/ADDON_NAME" }
 read_globals = {
     -- #C_* namespaces
     "C_AddOns", "C_APIDocumentation", "C_Spell", "C_Timer", "C_UnitAuras",
+    "Enum",
 
-    -- #Optional user-set global: extra spell IDs for the gcd probe to sample.
-    "EnhancedProbeGCDSpells",
+    -- #Optional user-set globals: spell IDs for the gcd / charges probes to sample.
+    "EnhancedProbeGCDSpells", "EnhancedProbeChargeSpells",
 
     -- #core API
     "hooksecurefunc", "issecretvalue", "securecall", "debugprofilestop",
