@@ -12,7 +12,12 @@ local VIEWERS = {
     "BuffBarCooldownViewer",
 }
 
-local FIELDS = { "isActive", "auraSpellID", "auraInstanceID", "cooldownID" }
+local FIELDS = {
+    "isActive", "auraSpellID", "auraInstanceID", "cooldownID",
+    "isActiveSpell",
+    "wasSetFromItem", "wasSetFromCooldown", "wasSetFromCharges",
+    "wasSetFromAura", "wasSetFromEditMode",
+}
 
 local function TestOps(v)
     local ops = {}
