@@ -10,6 +10,7 @@ EnhancedProbe.lua
 
 # Modules
 modules\EnhancedCDMFields.lua
+modules\EnhancedCDMItems.lua
 modules\EnhancedCDMKeys.lua
 modules\EnhancedCensus.lua
 modules\EnhancedCharges.lua

@@ -14,7 +14,7 @@ ignore = { "211/ADDON_NAME" }
 -- #Read-only WoW API surface and Lua-extension globals the client provides.
 read_globals = {
     -- #C_* namespaces
-    "C_AddOns", "C_APIDocumentation", "C_Item", "C_Spell", "C_Timer", "C_UnitAuras",
+    "C_AddOns", "C_APIDocumentation", "C_CooldownViewer", "C_Item", "C_Spell", "C_Timer", "C_UnitAuras",
     "Enum",
 
     -- #Optional user-set globals: spell IDs for the gcd / charges probes to sample.
@@ -24,6 +24,7 @@ read_globals = {
     "hooksecurefunc", "issecretvalue", "securecall", "debugprofilestop",
     "CreateFrame", "UIParent",
     "GetBuildInfo", "GetTime", "InCombatLockdown", "UnitAffectingCombat",
+    "GetInventoryItemID",
 
     -- #fonts
     "GameFontNormal", "GameFontHighlightSmall", "GameFontDisableSmall",
